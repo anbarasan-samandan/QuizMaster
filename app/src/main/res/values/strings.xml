@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quiz Master</string>
+    <string name="headerText">Welcome to Quiz!</string>
+    <string name="chooseSubject">Ready to test your knowledge!\nPick one from the below and prove it:</string>
+    <string name="correctAnswer">Correct Answer</string>
+    <string name="yourAnswer">Your Answer</string>
+    <string name="PreviousButton">Previous</string>
+    <string name="SubmitButton">Submit</string>
+    <string name="NextButton">Next</string>
+    <string name="QuizQuestions">QuizQuestions</string>
+    <string name="action_download">Download</string>
+    <string-array name="SubjectOptions">
+        <item>Tamil</item>
+        <item>English</item>
+        <item>Maths</item>
+        <item>Science</item>
+        <item>Social</item>
+    </string-array>
+</resources>

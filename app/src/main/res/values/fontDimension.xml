@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Score_Display_Points">40dp</dimen>
+    <dimen name="Score_Grid_Header">20dp</dimen>
+    <dimen name="Score_Answers">15dp</dimen>
+</resources>

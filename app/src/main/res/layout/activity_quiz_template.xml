@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_weight="1.0"
+    tools:context=".Top_Level">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Question goes here..."
+        android:textColor="@color/colorHeader"
+        android:id="@+id/txtViewQuestion"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option_01"
+        android:layout_gravity="center_vertical"
+        android:textSize="15dp"
+        android:onClick="onAnswerChosen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option_02"
+        android:textSize="15dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="onAnswerChosen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option_03"
+        android:textSize="15dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="onAnswerChosen"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option_04"
+        android:layout_gravity="center_vertical"
+        android:textSize="15dp"
+        android:onClick="onAnswerChosen"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PreviousButton"
+        android:id = "@+id/previousButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onButtonClicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubmitButton"
+        android:id = "@+id/submitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onButtonClicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NextButton"
+        android:id = "@+id/nextButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onButtonClicked"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
